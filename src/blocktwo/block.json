@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "multipleblocks/blocktwo",
+	"title": "Blocktwo",
+	"category": "multiple-category",
+	"icon": "text-page",
+	"description": "A simple block.",
+	"keywords": [
+		"block"
+	],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "multipleblocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
